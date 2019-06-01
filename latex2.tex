@@ -1,0 +1,81 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{amsmath}
+
+\title{Documento di \LaTeX}
+\author{Giovanni Canarecci}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\section{\textbf{Le formule matematiche}}
+Fondamentale è riuscire e scrivere formule matematiche come $(x+y) = 1$ utilizzando il \LaTeX. 
+Studiamo la seguente situazione
+
+ $$
+\begin{cases}
+-x^2,\qquad &if\quad x<0;\\
+\alpha + x,\qquad &if\quad0\leq x\leq1;\\
+x^2\qquad &otherwhise.
+\end{cases}
+ $$
+
+\noindent
+Ora proviamo a scrivere un integrale, equazione \eqref{eq}\\
+
+\begin{equation}
+\label{eq}
+\int_{0}^{\pi}\sin xdx = 2
+ \end{equation}
+
+Continuando
+
+\begin{align*}
+ X_t&=\alpha^{'}(t)+v\alpha^{``}\\
+ X_v&=\alpha^{'}(t)\\
+\Rightarrow &X_{t}\wedge X_{v}=(\alpha{'}(t)+v\alpha^{''}(t))\wedge\alpha^{'}(t)=\\
+&=v\alpha^{''}(t)\wedge \alpha^{'}(t)\neq 0 \Leftrightarrow v\neq 0;
+\end{align*}
+
+Alcuni esempi con le parentesi:
+$$
+\binom{\frac{n^{2}+1}{2}}{n+1}
+$$
+
+invece passando ad una matrice
+\begin{align*}
+\mathbf{A}=\begin{pmatrix}
+            a+b+c&uv\\
+            a+b&u+v
+           \end{pmatrix}
+\begin{vmatrix}
+ 30&7\\
+ 3&17
+\end{vmatrix}
+\\
+\int_{-\infty}^{+\infty}e^{-x^{2}}dx= \sqrt{\pi}
+\end{align*}
+
+\textbf{Apici e pedici}
+$$
+a_1,a_{i_{1}},a^2,a^{b^{c}},a^{i_{1}},a_{i}+1,a_1^2
+$$
+
+e un pò di radici
+
+$$
+1+\sqrt{1+\frac{1}{2}\sqrt{1+\frac{1}{3}\sqrt{1+\frac{1}{4}}}}
+$$
+
+Sia$ A=\{x \lvert \quad for\quad x \quad large\}$, la frazione
+
+$$
+\frac{\sqrt{\mu(i)^{\frac{3}{2}}(i^{2}-1)}}{\sqrt[3]{\rho(i)-2}+\sqrt[3]{\rho(i)-1}}
+$$
+
+
+
+
+\end{document}
